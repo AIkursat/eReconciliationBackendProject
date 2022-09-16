@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\aynur\\source\\repos\\eReconciliationBackendProject\\WebApi\\WebApi.csproj": {}
+    "C:\\Users\\aynur\\OneDrive\\Belgeler\\GitHub\\eReconciliationBackendProject\\eReconciliationBackendProject\\WebApi\\WebApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\aynur\\source\\repos\\eReconciliationBackendProject\\WebApi\\WebApi.csproj": {
+    "C:\\Users\\aynur\\OneDrive\\Belgeler\\GitHub\\eReconciliationBackendProject\\eReconciliationBackendProject\\WebApi\\WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aynur\\source\\repos\\eReconciliationBackendProject\\WebApi\\WebApi.csproj",
+        "projectUniqueName": "C:\\Users\\aynur\\OneDrive\\Belgeler\\GitHub\\eReconciliationBackendProject\\eReconciliationBackendProject\\WebApi\\WebApi.csproj",
         "projectName": "WebApi",
-        "projectPath": "C:\\Users\\aynur\\source\\repos\\eReconciliationBackendProject\\WebApi\\WebApi.csproj",
+        "projectPath": "C:\\Users\\aynur\\OneDrive\\Belgeler\\GitHub\\eReconciliationBackendProject\\eReconciliationBackendProject\\WebApi\\WebApi.csproj",
         "packagesPath": "C:\\Users\\aynur\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aynur\\source\\repos\\eReconciliationBackendProject\\WebApi\\obj\\",
+        "outputPath": "C:\\Users\\aynur\\OneDrive\\Belgeler\\GitHub\\eReconciliationBackendProject\\eReconciliationBackendProject\\WebApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\aynur\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
@@ -63,7 +67,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.108\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.109\\RuntimeIdentifierGraph.json"
         }
       }
     }

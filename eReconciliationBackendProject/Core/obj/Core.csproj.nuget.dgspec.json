@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\aynur\\source\\repos\\eReconciliationBackendProject\\Core\\Core.csproj": {}
+    "C:\\Users\\aynur\\OneDrive\\Belgeler\\GitHub\\eReconciliationBackendProject\\eReconciliationBackendProject\\Core\\Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\aynur\\source\\repos\\eReconciliationBackendProject\\Core\\Core.csproj": {
+    "C:\\Users\\aynur\\OneDrive\\Belgeler\\GitHub\\eReconciliationBackendProject\\eReconciliationBackendProject\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aynur\\source\\repos\\eReconciliationBackendProject\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\aynur\\OneDrive\\Belgeler\\GitHub\\eReconciliationBackendProject\\eReconciliationBackendProject\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\aynur\\source\\repos\\eReconciliationBackendProject\\Core\\Core.csproj",
+        "projectPath": "C:\\Users\\aynur\\OneDrive\\Belgeler\\GitHub\\eReconciliationBackendProject\\eReconciliationBackendProject\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\aynur\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aynur\\source\\repos\\eReconciliationBackendProject\\Core\\obj\\",
+        "outputPath": "C:\\Users\\aynur\\OneDrive\\Belgeler\\GitHub\\eReconciliationBackendProject\\eReconciliationBackendProject\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\aynur\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -54,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.108\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.109\\RuntimeIdentifierGraph.json"
         }
       }
     }
