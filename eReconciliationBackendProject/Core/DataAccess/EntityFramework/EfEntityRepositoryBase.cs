@@ -9,7 +9,9 @@ using System.Threading.Tasks;
 
 namespace Core.DataAccess.EntityFramework
 {
-    public class EFEntityFrameworkBase<TEntity, TContext> : IEntityRepository<TEntity> where TEntity : class, IEntity, new() where TContext : DbContext, new()
+    public class EfEntityRepositoryBase<TEntity, TContext> : IEntityRepository<TEntity> 
+        where TEntity : class, IEntity, new() 
+        where TContext : DbContext, new()
     {
         public void Add(TEntity entity)
         {
@@ -31,11 +33,11 @@ namespace Core.DataAccess.EntityFramework
             }
         }
 
-        public TEntity Get(Expression<Func<TEntity, bool>> filter = null)
+        public TEntity Get(Expression<Func<TEntity, bool>> filter)
         {
             using (var context = new TContext())
             {
-                return context.Set<TEntity>().SingleOrDefaultAsync(filter);
+                return context.Set<TEntity>().SingleOrDefault(filter);
             }
         }
 
