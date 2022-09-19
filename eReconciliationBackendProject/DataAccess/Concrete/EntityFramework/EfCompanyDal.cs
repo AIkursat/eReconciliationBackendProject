@@ -10,8 +10,9 @@ using System.Threading.Tasks;
 
 namespace DataAccess.Concrete.EntityFramework
 {
-    public class EFCompanyDal : EFEntityRepositoryBase<Company, ContextDb>, ICompanyDal
+    public class EFCompanyDal :
+        EfEntityRepositoryBase<Company, ContextDb>,
+        ICompanyDal
     {
-
     }
 }
