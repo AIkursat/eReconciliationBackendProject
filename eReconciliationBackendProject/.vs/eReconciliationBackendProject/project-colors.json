@@ -25,7 +25,12 @@
       "ProjectGuid": "8298b38e-ac2d-4935-ad7f-55c3b9301c6d",
       "DisplayName": "DataAccess",
       "ColorIndex": 3
+    },
+    "72fa27d0-6ef2-4e7e-9004-03538cb0a528": {
+      "ProjectGuid": "72fa27d0-6ef2-4e7e-9004-03538cb0a528",
+      "DisplayName": "Business",
+      "ColorIndex": 4
     }
   },
-  "NextColorIndex": 4
+  "NextColorIndex": 5
 }
