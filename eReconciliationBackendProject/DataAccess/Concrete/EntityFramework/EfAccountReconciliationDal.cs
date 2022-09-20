@@ -12,7 +12,7 @@ using DataAccess.Abstract;
 namespace DataAccess.Concrete.EntityFramework
 {
     public class EFAccountReconciliationDal : EfEntityRepositoryBase<AccountReconciliations,
-        ContextDb>, IAccountReconciliationsDal
+        ContextDb>, IAccountReconciliationDal
     {
     }
 }
