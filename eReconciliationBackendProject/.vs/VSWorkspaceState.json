@@ -2,9 +2,11 @@
   "ExpandedNodes": [
     "",
     "\\Core",
-    "\\Core\\DataAccess",
     "\\Core\\Entities",
     "\\Core\\Entities\\Concrete",
+    "\\Core\\Utilities",
+    "\\Core\\Utilities\\Results",
+    "\\Core\\Utilities\\Results\\Concrete",
     "\\Entities",
     "\\Entities\\Concrete",
     "\\WebApi"

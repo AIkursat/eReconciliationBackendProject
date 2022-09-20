@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "f0aLM85BU8zk9RY3ZMviJQLAG2lIQ9AggyPpPAf5dELDnqRhrRB3swgoPYXSUU8mrbURY+AtbGvutm+slrxMzw==",
+  "dgSpecHash": "ROb9TtVs7KPoFq7EI27UwsyYatETa7s6QXVg+XZdgabtxFhh/GFbc6vlLvsTQGG4u+NegIFvdEu3azYrELsb8w==",
   "success": true,
   "projectFilePath": "C:\\Users\\aynur\\OneDrive\\Belgeler\\GitHub\\eReconciliationBackendProject\\eReconciliationBackendProject\\Business\\Business.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\aynur\\.nuget\\packages\\autofac\\6.3.0\\autofac.6.3.0.nupkg.sha512",
     "C:\\Users\\aynur\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\aynur\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",
     "C:\\Users\\aynur\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.1.1\\microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512",
