@@ -10,3 +10,10 @@ C:\Users\aynur\OneDrive\Belgeler\GitHub\eReconciliationBackendProject\eReconcili
 C:\Users\aynur\OneDrive\Belgeler\GitHub\eReconciliationBackendProject\eReconciliationBackendProject\Business\obj\Debug\net6.0\Business.dll
 C:\Users\aynur\OneDrive\Belgeler\GitHub\eReconciliationBackendProject\eReconciliationBackendProject\Business\obj\Debug\net6.0\ref\Business.dll
 C:\Users\aynur\OneDrive\Belgeler\GitHub\eReconciliationBackendProject\eReconciliationBackendProject\Business\obj\Debug\net6.0\Business.pdb
+C:\Users\aynur\OneDrive\Belgeler\GitHub\eReconciliationBackendProject\eReconciliationBackendProject\Business\bin\Debug\net6.0\Core.dll
+C:\Users\aynur\OneDrive\Belgeler\GitHub\eReconciliationBackendProject\eReconciliationBackendProject\Business\bin\Debug\net6.0\DataAccess.dll
+C:\Users\aynur\OneDrive\Belgeler\GitHub\eReconciliationBackendProject\eReconciliationBackendProject\Business\bin\Debug\net6.0\Entities.dll
+C:\Users\aynur\OneDrive\Belgeler\GitHub\eReconciliationBackendProject\eReconciliationBackendProject\Business\bin\Debug\net6.0\DataAccess.pdb
+C:\Users\aynur\OneDrive\Belgeler\GitHub\eReconciliationBackendProject\eReconciliationBackendProject\Business\bin\Debug\net6.0\Entities.pdb
+C:\Users\aynur\OneDrive\Belgeler\GitHub\eReconciliationBackendProject\eReconciliationBackendProject\Business\bin\Debug\net6.0\Core.pdb
+C:\Users\aynur\OneDrive\Belgeler\GitHub\eReconciliationBackendProject\eReconciliationBackendProject\Business\obj\Debug\net6.0\Business.csproj.CopyComplete

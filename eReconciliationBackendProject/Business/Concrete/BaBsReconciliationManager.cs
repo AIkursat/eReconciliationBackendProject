@@ -10,9 +10,9 @@ namespace Business.Concrete
 {
     public class BaBsReconciliationManager : IBaBsReconciliationService
     {
-        private readonly IBaBsReconciliationDal _baBsReconciliationDal;
+        private readonly IBaBsReconciliationDetailDal _baBsReconciliationDal;
 
-        public BaBsReconciliationManager(IBaBsReconciliationDal baBsReconciliationDal)
+        public BaBsReconciliationManager(IBaBsReconciliationDetailDal baBsReconciliationDal)
         {
             _baBsReconciliationDal = baBsReconciliationDal;
         }

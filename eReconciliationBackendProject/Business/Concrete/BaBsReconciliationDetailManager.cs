@@ -8,11 +8,11 @@ using System.Threading.Tasks;
 
 namespace Business.Concrete
 {
-    public class BaBsReconciliationDetailSManager : IBaBsReconciliationDetailService
+    public class BaBsReconciliationDetailManager : IBaBsReconciliationDetailService
     {
-        private readonly IBaBsReconciliationDal _baBsReconciliationDal;
+        private readonly IBaBsReconciliationDetailDal _baBsReconciliationDal;
 
-        public BaBsReconciliationDetailSManager(IBaBsReconciliationDal baBsReconciliationDal)
+        public BaBsReconciliationDetailManager(IBaBsReconciliationDetailDal baBsReconciliationDal)
         {
             _baBsReconciliationDal = baBsReconciliationDal;
         }

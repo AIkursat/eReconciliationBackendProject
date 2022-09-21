@@ -10,9 +10,9 @@ using System.Threading.Tasks;
 
 namespace DataAccess.Concrete.EntityFramework
 {
-    public class EfBabsReconciliationDetailDal :
-        EfEntityRepositoryBase<BaBsReconciliationDetail, ContextDb>,
-        IBaBsReconciliationDetailDal
+    public class EfBabsReconciliationDal :
+        EfEntityRepositoryBase<BaBsReconciliation, ContextDb>,
+        IBaBsReconciliationDal
     {
     }
 }

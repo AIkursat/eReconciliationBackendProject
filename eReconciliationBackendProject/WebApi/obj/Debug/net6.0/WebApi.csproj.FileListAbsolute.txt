@@ -57,3 +57,14 @@ C:\Users\aynur\OneDrive\Belgeler\GitHub\eReconciliationBackendProject\eReconcili
 C:\Users\aynur\OneDrive\Belgeler\GitHub\eReconciliationBackendProject\eReconciliationBackendProject\WebApi\obj\Debug\net6.0\ref\WebApi.dll
 C:\Users\aynur\OneDrive\Belgeler\GitHub\eReconciliationBackendProject\eReconciliationBackendProject\WebApi\obj\Debug\net6.0\WebApi.pdb
 C:\Users\aynur\OneDrive\Belgeler\GitHub\eReconciliationBackendProject\eReconciliationBackendProject\WebApi\obj\Debug\net6.0\WebApi.genruntimeconfig.cache
+C:\Users\aynur\OneDrive\Belgeler\GitHub\eReconciliationBackendProject\eReconciliationBackendProject\WebApi\bin\Debug\net6.0\libman.json
+C:\Users\aynur\OneDrive\Belgeler\GitHub\eReconciliationBackendProject\eReconciliationBackendProject\WebApi\bin\Debug\net6.0\Autofac.dll
+C:\Users\aynur\OneDrive\Belgeler\GitHub\eReconciliationBackendProject\eReconciliationBackendProject\WebApi\bin\Debug\net6.0\Autofac.Extensions.DependencyInjection.dll
+C:\Users\aynur\OneDrive\Belgeler\GitHub\eReconciliationBackendProject\eReconciliationBackendProject\WebApi\bin\Debug\net6.0\Business.dll
+C:\Users\aynur\OneDrive\Belgeler\GitHub\eReconciliationBackendProject\eReconciliationBackendProject\WebApi\bin\Debug\net6.0\Core.dll
+C:\Users\aynur\OneDrive\Belgeler\GitHub\eReconciliationBackendProject\eReconciliationBackendProject\WebApi\bin\Debug\net6.0\DataAccess.dll
+C:\Users\aynur\OneDrive\Belgeler\GitHub\eReconciliationBackendProject\eReconciliationBackendProject\WebApi\bin\Debug\net6.0\Entities.dll
+C:\Users\aynur\OneDrive\Belgeler\GitHub\eReconciliationBackendProject\eReconciliationBackendProject\WebApi\bin\Debug\net6.0\Business.pdb
+C:\Users\aynur\OneDrive\Belgeler\GitHub\eReconciliationBackendProject\eReconciliationBackendProject\WebApi\bin\Debug\net6.0\Core.pdb
+C:\Users\aynur\OneDrive\Belgeler\GitHub\eReconciliationBackendProject\eReconciliationBackendProject\WebApi\bin\Debug\net6.0\DataAccess.pdb
+C:\Users\aynur\OneDrive\Belgeler\GitHub\eReconciliationBackendProject\eReconciliationBackendProject\WebApi\bin\Debug\net6.0\Entities.pdb

@@ -3,3 +3,13 @@ C:\Users\aynur\OneDrive\Belgeler\GitHub\eReconciliationBackendProject\eReconcili
 C:\Users\aynur\OneDrive\Belgeler\GitHub\eReconciliationBackendProject\eReconciliationBackendProject\Entities\obj\Debug\net6.0\Entities.AssemblyInfoInputs.cache
 C:\Users\aynur\OneDrive\Belgeler\GitHub\eReconciliationBackendProject\eReconciliationBackendProject\Entities\obj\Debug\net6.0\Entities.AssemblyInfo.cs
 C:\Users\aynur\OneDrive\Belgeler\GitHub\eReconciliationBackendProject\eReconciliationBackendProject\Entities\obj\Debug\net6.0\Entities.csproj.CoreCompileInputs.cache
+C:\Users\aynur\OneDrive\Belgeler\GitHub\eReconciliationBackendProject\eReconciliationBackendProject\Entities\bin\Debug\net6.0\Entities.deps.json
+C:\Users\aynur\OneDrive\Belgeler\GitHub\eReconciliationBackendProject\eReconciliationBackendProject\Entities\bin\Debug\net6.0\Entities.dll
+C:\Users\aynur\OneDrive\Belgeler\GitHub\eReconciliationBackendProject\eReconciliationBackendProject\Entities\bin\Debug\net6.0\ref\Entities.dll
+C:\Users\aynur\OneDrive\Belgeler\GitHub\eReconciliationBackendProject\eReconciliationBackendProject\Entities\bin\Debug\net6.0\Entities.pdb
+C:\Users\aynur\OneDrive\Belgeler\GitHub\eReconciliationBackendProject\eReconciliationBackendProject\Entities\bin\Debug\net6.0\Core.dll
+C:\Users\aynur\OneDrive\Belgeler\GitHub\eReconciliationBackendProject\eReconciliationBackendProject\Entities\bin\Debug\net6.0\Core.pdb
+C:\Users\aynur\OneDrive\Belgeler\GitHub\eReconciliationBackendProject\eReconciliationBackendProject\Entities\obj\Debug\net6.0\Entities.csproj.CopyComplete
+C:\Users\aynur\OneDrive\Belgeler\GitHub\eReconciliationBackendProject\eReconciliationBackendProject\Entities\obj\Debug\net6.0\Entities.dll
+C:\Users\aynur\OneDrive\Belgeler\GitHub\eReconciliationBackendProject\eReconciliationBackendProject\Entities\obj\Debug\net6.0\ref\Entities.dll
+C:\Users\aynur\OneDrive\Belgeler\GitHub\eReconciliationBackendProject\eReconciliationBackendProject\Entities\obj\Debug\net6.0\Entities.pdb

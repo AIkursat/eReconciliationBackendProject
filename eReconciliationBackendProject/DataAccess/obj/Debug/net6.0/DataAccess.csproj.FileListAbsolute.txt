@@ -3,3 +3,15 @@ C:\Users\aynur\OneDrive\Belgeler\GitHub\eReconciliationBackendProject\eReconcili
 C:\Users\aynur\OneDrive\Belgeler\GitHub\eReconciliationBackendProject\eReconciliationBackendProject\DataAccess\obj\Debug\net6.0\DataAccess.AssemblyInfoInputs.cache
 C:\Users\aynur\OneDrive\Belgeler\GitHub\eReconciliationBackendProject\eReconciliationBackendProject\DataAccess\obj\Debug\net6.0\DataAccess.AssemblyInfo.cs
 C:\Users\aynur\OneDrive\Belgeler\GitHub\eReconciliationBackendProject\eReconciliationBackendProject\DataAccess\obj\Debug\net6.0\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\aynur\OneDrive\Belgeler\GitHub\eReconciliationBackendProject\eReconciliationBackendProject\DataAccess\bin\Debug\net6.0\DataAccess.deps.json
+C:\Users\aynur\OneDrive\Belgeler\GitHub\eReconciliationBackendProject\eReconciliationBackendProject\DataAccess\bin\Debug\net6.0\DataAccess.dll
+C:\Users\aynur\OneDrive\Belgeler\GitHub\eReconciliationBackendProject\eReconciliationBackendProject\DataAccess\bin\Debug\net6.0\ref\DataAccess.dll
+C:\Users\aynur\OneDrive\Belgeler\GitHub\eReconciliationBackendProject\eReconciliationBackendProject\DataAccess\bin\Debug\net6.0\DataAccess.pdb
+C:\Users\aynur\OneDrive\Belgeler\GitHub\eReconciliationBackendProject\eReconciliationBackendProject\DataAccess\bin\Debug\net6.0\Core.dll
+C:\Users\aynur\OneDrive\Belgeler\GitHub\eReconciliationBackendProject\eReconciliationBackendProject\DataAccess\bin\Debug\net6.0\Entities.dll
+C:\Users\aynur\OneDrive\Belgeler\GitHub\eReconciliationBackendProject\eReconciliationBackendProject\DataAccess\bin\Debug\net6.0\Entities.pdb
+C:\Users\aynur\OneDrive\Belgeler\GitHub\eReconciliationBackendProject\eReconciliationBackendProject\DataAccess\bin\Debug\net6.0\Core.pdb
+C:\Users\aynur\OneDrive\Belgeler\GitHub\eReconciliationBackendProject\eReconciliationBackendProject\DataAccess\obj\Debug\net6.0\DataAccess.csproj.CopyComplete
+C:\Users\aynur\OneDrive\Belgeler\GitHub\eReconciliationBackendProject\eReconciliationBackendProject\DataAccess\obj\Debug\net6.0\DataAccess.dll
+C:\Users\aynur\OneDrive\Belgeler\GitHub\eReconciliationBackendProject\eReconciliationBackendProject\DataAccess\obj\Debug\net6.0\ref\DataAccess.dll
+C:\Users\aynur\OneDrive\Belgeler\GitHub\eReconciliationBackendProject\eReconciliationBackendProject\DataAccess\obj\Debug\net6.0\DataAccess.pdb
