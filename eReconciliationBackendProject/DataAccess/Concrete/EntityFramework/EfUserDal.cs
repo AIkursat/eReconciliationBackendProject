@@ -14,5 +14,22 @@ namespace DataAccess.Concrete.EntityFramework
         EfEntityRepositoryBase<User, ContextDb>,
         IUserDal
     {
+        public List<OperationClaim> GetClaims(User user, int companyId)
+        {
+            using (var context = new ContextDb())
+            {
+                var result = from operationClaim in context.operationClaims
+                             join userOperationClaim in context.userOperationClaims
+                             on operationClaim.Id equals userOperationClaim.OperationClaimId
+                             where userOperationClaim.CompanyId == companyId && userOperationClaim.UserId == user.Id
+                             select new OperationClaim
+                             {
+                                 Id = operationClaim.Id,
+                                 Name = operationClaim.Name,
+                             };
+
+                return result.ToList();
+            }
+        }
     }
 }

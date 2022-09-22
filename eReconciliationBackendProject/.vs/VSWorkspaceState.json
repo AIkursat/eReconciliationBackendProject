@@ -1,15 +1,15 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Business",
-    "\\Business\\Constants",
     "\\Core",
     "\\Core\\DataAccess",
+    "\\Core\\DataAccess\\EntityFramework",
     "\\Core\\Utilities",
     "\\Core\\Utilities\\Results",
     "\\Core\\Utilities\\Results\\Concrete",
     "\\Entities",
     "\\Entities\\Concrete",
+    "\\Entities\\Dtos",
     "\\WebApi"
   ],
   "SelectedNode": "\\eReconciliationBackendProject.sln",
