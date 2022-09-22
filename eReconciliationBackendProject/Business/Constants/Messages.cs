@@ -9,5 +9,11 @@ namespace Business.Constants
     public class Messages
     {
         public static string AddedCompany = "Company registration is successful";
+
+        public static string UserNotFound = "User not found";
+
+        public static string PasswordError = "Password is wrong!";
+
+        public static string SuccessfulLogin = "Password is correct";
     }
 }
