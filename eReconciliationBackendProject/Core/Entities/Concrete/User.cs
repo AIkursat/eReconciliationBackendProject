@@ -16,7 +16,7 @@ namespace Core.Entities.Concrete
         public DateTime AddedAt { get; set; }
         public bool IsActive { get; set; }
         public bool MailConfirm { get; set; }
-        public bool MailConfirmValue { get; set; }
+        public string MailConfirmValue { get; set; }
         public DateTime MailConfirmDate { get; set; }   
     }
 }
