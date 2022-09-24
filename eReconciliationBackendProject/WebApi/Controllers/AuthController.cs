@@ -27,19 +27,36 @@ namespace WebApi.Controllers
 
             var registerResult = _authService.Register(userForRegister, userForRegister.Password);
 
-            /*
-            var result = _authService.CreateAccessToken(registerResult, 0);
+            
+            var result = _authService.CreateAccessToken(registerResult.Data, 0);
             if (result.Success)
             {
                 return Ok(result.Data);
-            }
-            */
-
+            }        
+            /*
             if (registerResult.Success)
             {
                 return Ok(registerResult);
             }
+            */
             return BadRequest(registerResult.Message);
+        }
+
+        [HttpPost("login")]
+
+        public IActionResult Login(UserForLogin userForLogin)
+        {
+            var userToLogin = _authService.Login(userForLogin);
+            if (!userToLogin.Success)
+            {
+                return BadRequest(userToLogin.Message);
+            }
+            var result = _authService.CreateAccessToken(userToLogin.Data, 0);
+            if (result.Success)
+            {
+                return Ok(result.Data);
+            }
+            return BadRequest(userToLogin.Message);
         }
 
     }
