@@ -68,3 +68,5 @@ C:\Users\aynur\OneDrive\Belgeler\GitHub\eReconciliationBackendProject\eReconcili
 C:\Users\aynur\OneDrive\Belgeler\GitHub\eReconciliationBackendProject\eReconciliationBackendProject\WebApi\bin\Debug\net6.0\Core.pdb
 C:\Users\aynur\OneDrive\Belgeler\GitHub\eReconciliationBackendProject\eReconciliationBackendProject\WebApi\bin\Debug\net6.0\DataAccess.pdb
 C:\Users\aynur\OneDrive\Belgeler\GitHub\eReconciliationBackendProject\eReconciliationBackendProject\WebApi\bin\Debug\net6.0\Entities.pdb
+C:\Users\aynur\OneDrive\Belgeler\GitHub\eReconciliationBackendProject\eReconciliationBackendProject\WebApi\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\aynur\OneDrive\Belgeler\GitHub\eReconciliationBackendProject\eReconciliationBackendProject\WebApi\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
