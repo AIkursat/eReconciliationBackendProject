@@ -1,17 +1,17 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Core",
-    "\\Core\\Utilities",
-    "\\Core\\Utilities\\Security",
-    "\\Core\\Utilities\\Security\\JWT",
+    "\\Business",
+    "\\Business\\DependencyResolvers",
+    "\\Business\\DependencyResolvers\\Autofac",
     "\\DataAccess",
     "\\DataAccess\\Concrete",
     "\\DataAccess\\Concrete\\EntityFramework",
     "\\Entities",
     "\\Entities\\Concrete",
     "\\Entities\\Dtos",
-    "\\WebApi"
+    "\\WebApi",
+    "\\WebApi\\Controllers"
   ],
   "SelectedNode": "\\eReconciliationBackendProject.sln",
   "PreviewInSolutionExplorer": false

@@ -19,5 +19,7 @@ namespace Business.Constants
         public static string UserRegistered = "User registiration is successful";
 
         public static string UserAlreadyExist = "User already exists";
+
+        public static string CompanyAlreadtExists = "This company already exists";
     }
 }

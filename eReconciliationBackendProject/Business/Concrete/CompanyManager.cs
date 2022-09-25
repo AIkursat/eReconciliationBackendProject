@@ -32,6 +32,17 @@ namespace Business.Concrete
             return new ErrorResult("Şirket adı en az 10 karakter olmalıdır.");
         }
 
+        public IResult CompanyExist(Company company)
+        {
+            var result = _companyDal.Get(c=> c.Name == company.Name && c.TaxDepartment == company.TaxDepartment && c.TaxIdNumber == c.TaxIdNumber
+            && c.IdentityNumber == company.IdentityNumber);
+            if (result!=null)
+            {
+                return new ErrorResult(Messages.CompanyAlreadtExists);
+            }
+            return new SuccessResult();
+        }
+
         // Dependency Injection
         // User Authorization
         // Transaction

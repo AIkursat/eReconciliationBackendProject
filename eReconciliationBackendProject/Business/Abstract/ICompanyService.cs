@@ -11,8 +11,7 @@ namespace Business.Abstract
     public interface ICompanyService
     {
         IResult Add(Company company);
-        // CRUD
         IDataResult<List<Company>> GetList();
-
+        IResult CompanyExist(Company company);
     }
 }
