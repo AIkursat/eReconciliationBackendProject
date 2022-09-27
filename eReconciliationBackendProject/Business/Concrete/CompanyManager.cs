@@ -52,6 +52,13 @@ namespace Business.Concrete
         public IDataResult<List<Company>> GetList()
         {
             return new SuccessDataResult<List<Company>>(_companyDal.GetList());
-        }   
+        }
+
+        public IResult UserCompanyAdd(int userId, int companyId)
+        {
+           _companyDal.UserCompanyAdd(userId, companyId);
+            return new SuccessResult();
+
+        }
     }
 }

@@ -18,7 +18,7 @@ namespace WebApi.Controllers
         }
 
         [HttpPost("registersecondaccount")]
-        public IActionResult RegisterSecondAccount(UserForRegister userForRegister)
+        public IActionResult RegisterSecondAccount(UserForRegister userForRegister, int companyId)
         {
             var userExist = _authService.UserExists(userForRegister.Email);
             if (!userExist.Success)
@@ -26,7 +26,7 @@ namespace WebApi.Controllers
                 return BadRequest(userExist.Message);
             }
 
-            var registerResult = _authService.Register(userForRegister, userForRegister.Password);
+            var registerResult = _authService.RegisterSecondAccount(userForRegister, userForRegister.Password);
             var result = _authService.CreateAccessToken(registerResult.Data, companyId);
             if (result.Success)
             {
@@ -42,11 +42,11 @@ namespace WebApi.Controllers
         }
 
         [HttpPost("register")]
-        public IActionResult Register(UserForRegister userForRegister, Company company)
+        public IActionResult Register(UserAndCompanyRegisterDto userAndCompanyRegister)
         {
             // contrpl the use if that exists
 
-            var userExist = _authService.UserExists(userForRegister.Email);
+            var userExist = _authService.UserExists(userAndCompanyRegister.UserForRegister.Email);
             if (!userExist.Success)
             {
                 return BadRequest(userExist.Message);
@@ -54,11 +54,15 @@ namespace WebApi.Controllers
 
             // control the company if that exist
 
-            var companyExist =     
+            var companyExist = _authService.CompanyExist(userAndCompanyRegister.company);
+            if (companyExist.Success)
+            {
+                return BadRequest(userExist.Message);
+            }
 
+            var registerResult = _authService.Register(userAndCompanyRegister.UserForRegister, userAndCompanyRegister.UserForRegister.Password, userAndCompanyRegister.company);       
 
-            var registerResult = _authService.Register(userForRegister, userForRegister.Password);       
-            var result = _authService.CreateAccessToken(registerResult.Data, companyId);
+            var result = _authService.CreateAccessToken(registerResult.Data, registerResult.Data.CompanyId);
             if (result.Success)
             {
                 return Ok(result.Data);
