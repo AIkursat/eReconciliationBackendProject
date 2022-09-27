@@ -21,5 +21,7 @@ namespace Business.Constants
         public static string UserAlreadyExist = "User already exists";
 
         public static string CompanyAlreadtExists = "This company already exists";
+
+        public static string MailParameterUpdated = "Mail parameters has updated";
     }
 }

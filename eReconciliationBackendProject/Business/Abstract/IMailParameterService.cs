@@ -1,4 +1,7 @@
-﻿using System;
+﻿using Core.Utilities.Results.Abstract;
+using Core.Utilities.Results.Concrete;
+using Entities.Concrete;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,5 +11,7 @@ namespace Business.Abstract
 {
     public interface IMailParameterService
     {
+         IResult Update(MailParameter mailParameter);
+         IDataResult<MailParameter> Get(int companyId); // success dönmesi için.
     }
 }
